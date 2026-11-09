@@ -1,0 +1,21 @@
+[package]
+name = "rscope"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.90"
+description = "Tree-sitter code navigation with a SQLite index and xcscope-compatible queries"
+license = "MIT"
+publish = false
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+regex = "1"
+rusqlite = { version = "=0.37.0", features = ["bundled"] }
+shell-words = "1"
+tree-sitter = "=0.25.10"
+tree-sitter-c = "=0.24.2"
+tree-sitter-python = "=0.25.0"
+tree-sitter-rust = "=0.24.2"
+tree-sitter-java = "=0.23.5"
+tempfile = "3"

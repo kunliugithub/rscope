@@ -1,0 +1,9 @@
+/target/
+/rscope.db
+/rscope.db-journal
+/rscope.db-shm
+/rscope.db-wal
+/cscope.out
+/cscope.out-journal
+/cscope.out-shm
+/cscope.out-wal

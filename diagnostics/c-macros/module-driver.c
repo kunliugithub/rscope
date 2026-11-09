@@ -1,0 +1,1 @@
+module_hid_driver(example_driver)
